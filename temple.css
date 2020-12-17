@@ -1,0 +1,124 @@
+/* 全体 */
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+}
+html{
+  scroll-behavior:smooth;
+}
+/* リンク */
+footer a{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+header a{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.link-a:hover {
+  opacity: 0.6;
+}
+/* ページトップボタン */
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #474747;
+  opacity: 0.6;
+  border-radius: 50%;
+  margin: auto 5px 5px auto;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+/* ヘッダー */
+header{
+  display: flex;
+  flex-direction: row;
+  height: 65px;
+  position: relative;
+}
+#logo-header{
+  height: 55px;
+  margin-left: 100px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+}
+header ul{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+header li{
+  list-style: none;
+  font-size: 20px;
+  margin: auto 20px;
+}
+#twitter-header{
+  width: 35px;
+  height: 35px;
+  margin-right: 120px;
+}
+/* フッター */
+#footer-main-logo{
+  width: 190px;
+  margin: 0 auto;
+  padding: 0;
+}
+#footer-sub-logos img{
+  height: 35px;
+}
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  padding-bottom: 10px;
+}
+footer li{
+  list-style: none;
+}
+#sites{
+  text-align: center;
+  background-color:  rgb(214, 214, 214);
+}
+#footer-footer li{
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#footer-footer ul{
+  padding: 10px;
+}
+#footer-footer{
+  background-color: rgb(168, 168, 168);
+}
