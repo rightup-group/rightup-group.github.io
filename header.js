@@ -4,5 +4,5 @@ document.write('<li class="link-a"><a href="index.html">Home</a></li>');
 document.write('<li class="link-a"><a href="index.html#medias">Medias</a></li>');
 document.write('<li class="link-a"><a href="about.html">About</a></li>');
 document.write('<li class="link-a"><a href="contact.html">Contact</a></li>');
-document.write('<li><a href="https://twitter.com/"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/d/douga-no-sozaiko/20201217/20201217224440.png" id="twitter-header" alt="Twitterアイコン" class="link-a"></a></li>');
+document.write('<li><a href="https://twitter.com/RightUP_group"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/d/douga-no-sozaiko/20201217/20201217224440.png" id="twitter-header" alt="Twitterアイコン" class="link-a"></a></li>');
 document.write('</ul>');
