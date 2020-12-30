@@ -12,7 +12,7 @@ document.write('<li class="link-a"><a href="use-site.html">サービスのご利
 document.write('<li class="link-a"><a href="privacy-policy.html">プライバシーポリシー</a></li>');
 document.write('<li>Copyright © RightUP. All Rights Reserved.</li>');
 document.write('</ul>');
-document.write('</div>')
+document.write('</div>');
 //雪降らす開始
 document.write('<div class="snowflakes" aria-hidden="true">');
 document.write('<div class="snowflake">');
