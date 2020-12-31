@@ -135,6 +135,13 @@ footer li{
 #footer-footer{
   background-color: rgb(168, 168, 168);
 }
+/* 画面下Twitterアイコン用CSS */
+#twitter-icon-bottom img{
+  width: 50px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
 /*雪CSS開始*/
 .snowflake {
   color: #fff;
