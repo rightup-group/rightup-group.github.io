@@ -13,10 +13,6 @@ document.write('<li class="link-a"><a href="privacy-policy.html">プライバシ
 document.write('<li>Copyright © RightUP. All Rights Reserved.</li>');
 document.write('</ul>');
 document.write('</div>');
-//ページ下Twitterアイコン
-document.write('<a href="https://twitter.com/RightUP_group" target="_blank" id="twitter-icon-bottom">');
-document.write('<img src="https://cdn-ak.f.st-hatena.com/images/fotolife/d/douga-no-sozaiko/20201231/20201231213540.png">');
-document.write('</a>');
 //雪降らす開始
 document.write('<div class="snowflakes" aria-hidden="true">');
 document.write('<div class="snowflake">');
